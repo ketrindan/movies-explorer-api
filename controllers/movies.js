@@ -17,11 +17,11 @@ module.exports.createMovie = (req, res, next) => {
     year,
     description,
     image,
-    trailer,
-    nameRU,
-    nameEN,
+    trailerLink,
     thumbnail,
     movieId,
+    nameRU,
+    nameEN,
   } = req.body;
 
   Movie.create({
@@ -31,11 +31,11 @@ module.exports.createMovie = (req, res, next) => {
     year,
     description,
     image,
-    trailer,
-    nameRU,
-    nameEN,
+    trailerLink,
     thumbnail,
     movieId,
+    nameRU,
+    nameEN,
     owner: req.user._id,
   })
     .then((movie) => movie.populate(['owner']))
@@ -52,7 +52,7 @@ module.exports.createMovie = (req, res, next) => {
 };
 
 module.exports.deleteMovie = (req, res, next) => {
-  Movie.findById(req.params.movieId)
+  Movie.findById(req.params.id)
     .then((movie) => {
       if (!movie) {
         throw new NotFoundError('Фильм не найден');
@@ -62,7 +62,7 @@ module.exports.deleteMovie = (req, res, next) => {
         throw new ForbiddenError('Удалять чужие фильмы запрещено');
       }
 
-      return Movie.findByIdAndRemove(req.params.movieId).populate(['owner']);
+      return Movie.findByIdAndRemove(req.params.id).populate(['owner']);
     })
     .then((movie) => {
       res.status(200).send(movie);
