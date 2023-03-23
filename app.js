@@ -16,7 +16,8 @@ const config = require('./utils/config');
 const allowedCors = [
   'https://movies-explorer.ketrindan.nomoredomains.work',
   'http://movies-explorer.ketrindan.nomoredomains.work',
-  'localhost:3000',
+  'http://localhost:3000',
+  'http://localhost:3001',
 ];
 
 const app = express();
