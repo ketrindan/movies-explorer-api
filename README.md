@@ -1,4 +1,4 @@
-# Movies-explorer
+# Movies-explorer (бэкенд)
 ## ***Дипломная работа курса [Яндекс.Практикум](https://practicum.yandex.ru/)***
 
 ### **Описание**
