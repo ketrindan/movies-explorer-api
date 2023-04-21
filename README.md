@@ -37,8 +37,8 @@ Movies Explorer - сервис, в котором можно искать фил
 Остальные директории вспомогательные, создаются при необходимости разработчиком
 
 ## **Запуск проекта**
-npm run start — запускает сервер
-npm run dev — запускает сервер с hot-reload
+`npm run start` — запускает сервер
+`npm run dev` — запускает сервер с hot-reload
 
 ## **Демо**
 Frontend https://movies-explorer.ketrindan.nomoredomains.work 
