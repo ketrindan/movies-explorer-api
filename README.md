@@ -41,6 +41,9 @@ Movies Explorer - сервис, в котором можно искать фил
 `npm run start` — запускает сервер \
 `npm run dev` — запускает сервер с hot-reload
 
-## **Демо**
+### **Демо**
 Frontend https://movies-explorer.ketrindan.nomoredomains.work \
 Backend https://api.movies.ketrindan.nomoredomains.work
+
+### **Статус проекта**
+✅ Работа завершена
