@@ -29,6 +29,9 @@ Movies Explorer - сервис, в котором можно искать фил
 * Файрвол ufw
 * SSL-сертификаты от Letsencrypt
 
+### **Демо**
+
+
 #### **Директории**
 
 `/routes` — папка с файлами роутера  
@@ -40,10 +43,6 @@ Movies Explorer - сервис, в котором можно искать фил
 #### **Запуск проекта**
 `npm run start` — запускает сервер \
 `npm run dev` — запускает сервер с hot-reload
-
-### **Демо**
-Frontend https://movies-explorer.ketrindan.nomoredomains.work \
-Backend https://api.movies.ketrindan.nomoredomains.work
 
 ### **Статус проекта**
 ✅ Работа завершена
