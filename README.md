@@ -30,7 +30,7 @@ Movies Explorer - сервис, в котором можно искать фил
 * SSL-сертификаты от Letsencrypt
 
 ### **Демо**
-
+https://github.com/ketrindan/movies-explorer-api/assets/107261441/63f85ab2-f100-4f1d-b7ee-6921cebd4ba6
 
 #### **Директории**
 
